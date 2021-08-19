@@ -117,16 +117,7 @@ NFToken.burn confirmed - block: 6   gas used: 48312 (100.00%)
 >>> nft.rangesOf(accounts[0])
 ((1, 42), (1337, 6001))
 ```
-
-## Testing
-
-Unit testing and deployment of this project is performed with [Brownie](https://github.com/iamdefinitelyahuman/brownie).
-
-To run the tests:
-
-```bash
-brownie test
-```
+  
 
 A [dockerfile](Dockerfile) is available if you are experiencing issues.
 
